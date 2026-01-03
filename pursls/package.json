@@ -1,0 +1,16 @@
+{
+    "name": "pursls",
+    "description": "Language Server Protocol server for PureScript wrapping purs ide server functionality",
+    "version": "0.0.1",
+    "main": "./server.js",
+    "bin": "./server.js",
+    "files": [
+        "server.js"
+    ],
+    "type": "module",
+    "dependencies": {
+        "vscode-languageserver": "^9.0.1",
+        "vscode-languageserver-textdocument": "^1.0.12",
+        "vscode-uri": "^3.1.0"
+    }
+}

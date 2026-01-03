@@ -1,0 +1,38 @@
+package:
+  name: pursls
+  dependencies:
+    - aff
+    - argonaut
+    - console
+    - effect
+    - js-promise
+    - js-promise-aff
+    - language-cst-parser
+    - node-child-process
+    - node-fs
+    - node-path
+    - node-process
+    - prelude
+    - random
+    - refs
+    - transformers
+    - safe
+  test:
+    main: Test.Main
+    dependencies:
+      - spec
+      - spec-node
+  build:
+    censorProjectWarnings:
+      - ImplicitImport
+      - ImplicitQualifiedImport
+  bundle:
+    platform: node
+    type: app
+    outfile: server.js
+workspace:
+  packageSet:
+    registry: 69.7.0
+  extraPackages:
+    safe:
+      path: ../purescript-safe

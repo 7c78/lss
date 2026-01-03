@@ -1,0 +1,15 @@
+package:
+  name: unsafe
+  dependencies:
+    - arrays
+    - console
+    - effect
+    - exceptions
+    - maybe
+    - nullable
+    - prelude
+    - strings
+workspace:
+  packageSet:
+    registry: 69.0.0
+  extraPackages: {}
